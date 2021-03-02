@@ -1,0 +1,15 @@
+Source: hamonikr-server-core
+Section: utils
+Priority: optional
+Maintainer: HamoniKR <pkg@hamonikr.org>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.9.5
+
+Package: hamonikr-server-core
+Architecture: all
+Depends: hamonikr-info, htop, figlet, nimf, nimf-libhangul, apt-transport-https
+Conflicts: 
+Replaces: 
+Breaks: 
+Description: hamonikr-server-environment meta package
+
